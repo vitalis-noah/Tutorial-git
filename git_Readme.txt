@@ -117,7 +117,7 @@ GitHub‚ÌHomePage‚É Fork‚Ìƒ{ƒ^ƒ“‚ª‚éB‘¼‚ÌƒAƒJƒEƒ“ƒg‚ÌƒvƒƒWƒFƒNƒg‚ğ‚Ğ‚ç‚¢‚½ó‘Ô‚
 ©•ª‚ÌƒAƒJƒEƒ“ƒg‚ÉƒRƒs[‚µ‚Ä‚­‚ê‚é
 
 
-¡GitHub / 17. ”CˆÓ‚ÌêŠ‚É–ß‚é
+¡GitHub / 17. reset :”CˆÓ‚ÌêŠ‚É–ß‚éi—š—ğ‚àæÁj
 ---------------------------------------------------
 git reset HEAD^
 
@@ -134,3 +134,32 @@ HEAD~3
 git reset --hard HEAD^
 git reset --soft HEAD^
 
+
+¡GitHub / 18. revert : commit‚ğæ‚èÁ‚·commit‚ğÀsi—š—ğ‚ªc‚é/ˆÀ‘Sj
+---------------------------------------------------
+git revert HEAD
+- - - - - - - - - - - - - - - - - - -
+git log
+git revert e0d014f425f3481591daf1cfad96bd5de1e7405e
+git log
+
+
+¡GitHub / 20. GitIgnore : Git‚ÌŠÇ—‚ÉŠÜ‚ß‚È‚¢ƒtƒ@ƒCƒ‹‚ğw’è
+---------------------------------------------------
+.gitignoreƒtƒ@ƒCƒ‹‚ğì¬
+
+#‚Ån‚Ü‚és‚ÍƒRƒƒ“ƒg‚Æ‚µ‚Äˆµ‚í‚ê‚é
+
+*.exe			:*.exeŠg’£q
+bin/			:“Á’è‚ÌƒtƒHƒ‹ƒ_
+package/**/*.ts		:“Á’è‚ÌƒtƒHƒ‹ƒ_‚Ì.tsŠg’£q
+- - - - - - - - - - - - - - - - - - -
+windows‚Å‚Í .gitignore ‚Ìƒtƒ@ƒCƒ‹‚Íì‚ê‚È‚¢iƒtƒ@ƒCƒ‹–¼‚ğ‚¢‚ê‚Ä‚­‚¾‚³‚¢j
+‚»‚±‚Å...
+gitignore.txt ‚ğ‚Â‚­‚èAdosƒvƒƒ“ƒvƒg(ƒGƒNƒXƒvƒ[ƒ‰‚ÌƒAƒhƒŒƒX‚É cmd ‚Æ‚·‚ê‚Î dos‚ª‹N“®)‚Å rename ‚·‚é
+
+c:\***\**\**>ren gitignore.txt .gitignore
+
+‚Ü‚½‚Í...
+.gitignore.txt ‚Æ‚¢‚¤ƒtƒ@ƒCƒ‹‚ğ‚Â‚­‚èAƒGƒNƒXƒvƒ[ƒ‰‚Å
+.gitignore. ‚É–¼‘O‚ğ•ÏX‚·‚éiŒx‚ª‚Å‚é‚ªOK‚Æ‚·‚éj
