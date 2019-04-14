@@ -1,3 +1,7 @@
+youtube「チュートリアル道場」より
+https://www.youtube.com/channel/UCjzn4IbsyElFz1xowmO14Hg
+============================================================
+
 ■初期設定
 ---------------------------------------------------
 git config --global user.name "****"
